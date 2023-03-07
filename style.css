@@ -1,0 +1,154 @@
+#icon{filter: opacity(0);}
+#a{width: 80%;}
+.border {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border:none;
+}
+
+section #header-wrapper{
+    height: 70px;
+    display: flex;
+    border: 1px solid #3b5998;
+    margin: 1px;
+    background-color: #3b5998;
+    
+    
+    
+}
+#daday{margin-left: 40%;
+width: 40%;
+margin-top: 20px;
+font-weight: bolder;
+color:white;
+}
+
+
+.main-head{
+    flex-grow: 6;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+.side-head{
+    flex-grow: 1.7;
+    
+}
+
+section #side-wrapper{
+    height: 75vh;
+    display: flex;
+}
+
+section #aside{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+aside{
+    flex-direction: column;
+}
+
+.side1{
+    flex-grow: 2;
+    height: 100;
+}
+
+.side2{
+    flex-grow: 4;
+}
+
+
+
+.main1{
+    flex-grow: 5;
+}
+
+.main2{
+    flex-grow:  2;
+}
+
+footer{
+    height: 20vh;
+}
+#mm{
+    filter:opacity(0);
+    position: absolute;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    #icon{filter: opacity(100%);}
+
+    section #aside {
+        display: none;
+    }
+    
+    .main2 {
+       display: none;
+    }
+    section #header-wrapper {
+        flex-direction: column
+     }
+    section{
+        background-color: aquamarine;
+
+    }
+    
+    #daday{position: absolute;
+        width: 100%;
+        margin-top: 50px;
+        font-weight: bolder;
+        color:white;
+        margin-left: 1%;
+        
+
+        }   
+        img{padding-left: 5% ;}
+  #aq{
+    color:#3b5998;
+    position: absolute;
+    margin-top: 100px;
+    filter:opacity(0)
+}
+section #header-wrapper{
+    height: 150px;
+    display: flex;
+    border: 1px solid #3b5998;
+    margin: 3px;
+    background-color:#F4F1F0;
+
+    
+}
+
+#ab{position: absolute;margin-top: 50px;;
+    
+
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 290px) {
+    img{padding-left: 3% ;}
+    }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
